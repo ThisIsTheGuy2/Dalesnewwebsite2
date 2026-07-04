@@ -1,0 +1,46 @@
+/* Custom styles and small animations */
+:root{
+  --deepNavy: #030712;
+  --indigoNavy: #0f172a;
+  --electricBlue: #3b82f6;
+  --vibrantIndigo: #6366f1;
+  --offWhite: #f8fafc;
+}
+
+/* FAQ card content area (we animate max-height) */
+.faq-card .faq-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.36s cubic-bezier(.2,.9,.2,1), padding 0.28s ease;
+}
+
+/* When item open */
+.faq-card.open .faq-content {
+  padding: 14px 24px 20px 24px;
+}
+
+/* chevron rotation */
+.faq-card.open .faq-chevron {
+  transform: rotate(180deg);
+}
+
+/* wave animation wrapper */
+.wave-wrap .animate-wave {
+  animation: wave 20s linear infinite;
+  transform-origin: center;
+}
+
+/* Keyframes fallback for wave movement */
+@keyframes wave {
+  0% { transform: translateX(0); }
+  50% { transform: translateX(-18%); }
+  100% { transform: translateX(0); }
+}
+
+/* small responsive tweaks */
+@media (max-width: 640px) {
+  h1 { font-size: 1.8rem; }
+}
+
+/* accessibility: focus outlines */
+a:focus, button:focus { outline: 2px solid var(--electricBlue); outline-offset: 2px; }

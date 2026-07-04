@@ -1,1 +1,344 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Dales Web Solutions — Modern Websites • R1200</title>
+  <meta name="description" content="Modern websites that get results. 1 page • 5 sections • R1200 + domain. Fast delivery, mobile friendly and SEO ready." />
+  <link rel="icon" href="assets/favicon.svg" />
+  <!-- Tailwind CDN with custom config -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            indigoNavy: '#0f172a',
+            deepNavy: '#030712',
+            electricBlue: '#3b82f6',
+            vibrantIndigo: '#6366f1',
+            offWhite: '#f8fafc'
+          },
+          keyframes: {
+            waveX: {
+              '0%': { transform: 'translateX(0)' },
+              '50%': { transform: 'translateX(-25%)' },
+              '100%': { transform: 'translateX(0)' }
+            }
+          },
+          animation: {
+            wave: 'waveX 18s linear infinite'
+          }
+        }
+      }
+    }
+  </script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body class="bg-deepNavy text-offWhite antialiased">
+  <!-- NAV -->
+  <header class="w-full">
+    <nav class="max-w-7xl mx-auto px-6 py-6 flex items-center justify-between">
+      <a href="#" class="flex items-center gap-3">
+        <img src="assets/logo.svg" alt="Dales logo" class="w-12 h-12" />
+        <div class="hidden sm:block">
+          <span class="font-semibold">DALES</span>
+          <div class="text-sm text-slate-300">Web Solutions</div>
+        </div>
+      </a>
+      <div class="flex items-center gap-4">
+        <a class="hidden md:inline text-sm text-slate-300" href="#portfolio">Our Work</a>
+        <a class="hidden md:inline text-sm text-slate-300" href="#pricing">Pricing</a>
+        <a class="hidden md:inline text-sm text-slate-300" href="#faq">FAQs</a>
+        <a href="#contact" class="bg-electricBlue text-deepNavy px-4 py-2 rounded-md font-semibold">GET YOUR WEBSITE NOW</a>
+        <a id="whatsapp-top" href="https://wa.me/27774845787" target="_blank" class="flex items-center gap-2 border border-slate-700 px-3 py-2 rounded-md hover:bg-slate-800">
+          <svg class="w-4 h-4 text-[#25D366]" viewBox="0 0 24 24" fill="none"><path d="M21 11.5a8.5 8.5 0 10-3.1 6.3L21 21l-1.2-4.9A8.5 8.5 0 0021 11.5z" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span class="text-sm">Message Dales Web Solution on WhatsApp</span>
+        </a>
+      </div>
+    </nav>
+  </header>
 
+  <!-- HERO -->
+  <main>
+    <section class="relative overflow-hidden" aria-label="Hero">
+      <div class="max-w-7xl mx-auto px-6 lg:px-8 grid lg:grid-cols-2 gap-10 items-center py-12 lg:py-24">
+        <div class="z-10">
+          <div class="inline-flex items-center gap-3 rounded-full bg-slate-800/50 px-3 py-1 text-sm ring-1 ring-electricBlue/40">
+            <svg class="w-4 h-4 text-electricBlue" viewBox="0 0 24 24" fill="none"><path d="M12 2L2 7l10 5 10-5-10-5z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <span>PROFESSIONAL WEBSITES THAT GET RESULTS</span>
+          </div>
+
+          <h1 class="mt-6 text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight">
+            Modern Websites. <br />
+            Trusted Service. <br />
+            <span class="text-electricBlue">Guaranteed Results.</span>
+          </h1>
+
+          <p class="mt-6 max-w-xl text-slate-300">
+            We help South African businesses build a strong online presence with fast, beautiful and effective websites that convert visitors into customers. Proudly serving Cape Town, Johannesburg and beyond.
+          </p>
+
+          <div class="mt-8 flex flex-wrap gap-4 items-center">
+            <a href="#contact" class="bg-electricBlue text-deepNavy font-semibold px-5 py-3 rounded-md shadow hover:scale-[1.01] transition">GET YOUR WEBSITE NOW</a>
+            <a id="whatsapp-cta" href="https://wa.me/27774845787" target="_blank" class="flex items-center gap-2 border border-slate-700 px-4 py-3 rounded-md hover:bg-slate-800 transition">
+              <svg class="w-5 h-5 text-[#25D366]" viewBox="0 0 24 24" fill="none"><path d="M21 11.5a8.5 8.5 0 10-3.1 6.3L21 21l-1.2-4.9A8.5 8.5 0 0021 11.5z" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <span>Message Dales Web Solution on WhatsApp</span>
+            </a>
+
+            <div class="ml-2 text-sm text-slate-400">Or message us directly on WhatsApp</div>
+          </div>
+
+          <!-- Features badges -->
+          <div class="mt-8 flex gap-5 flex-wrap">
+            <div class="flex items-center gap-3">
+              <div class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center text-electricBlue">⚡</div>
+              <div class="text-sm">Fast Delivery</div>
+            </div>
+            <div class="flex items-center gap-3">
+              <div class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center text-electricBlue">🔒</div>
+              <div class="text-sm">Trusted Service</div>
+            </div>
+            <div class="flex items-center gap-3">
+              <div class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center text-electricBlue">📈</div>
+              <div class="text-sm">Results Driven</div>
+            </div>
+          </div>
+
+          <!-- Price badge -->
+          <div class="mt-8">
+            <div class="inline-flex items-center gap-4 bg-gradient-to-br from-electricBlue/10 to-vibrantIndigo/10 px-6 py-6 rounded-full ring-1 ring-electricBlue/30">
+              <div class="text-sm text-slate-300">ONLY</div>
+              <div class="text-3xl font-extrabold">R1200</div>
+              <div class="text-sm text-slate-300">+ DOMAIN</div>
+              <div class="ml-4 px-3 py-1 bg-offWhite text-deepNavy rounded-full font-semibold">1 PAGE • 5 SECTIONS</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- HERO IMAGE -->
+        <div class="relative">
+          <img src="assets/hero.svg" alt="Hero image" class="w-full rounded-xl shadow-2xl object-cover" />
+        </div>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section id="portfolio" class="max-w-7xl mx-auto px-6 py-14">
+      <div class="flex items-center justify-between">
+        <div>
+          <h2 class="text-3xl font-bold">Here’s some of our work</h2>
+          <p class="text-slate-300 mt-2">Four recent one-page sites (GIF/video placeholders).</p>
+        </div>
+        <div class="text-sm text-slate-400">Want to add yours? Provide the files and we’ll showcase them.</div>
+      </div>
+
+      <div class="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="rounded-xl overflow-hidden bg-slate-900/40 aspect-[16/10] flex items-center justify-center">
+          <div class="text-slate-400">Placeholder 1 (gif/video)</div>
+        </div>
+        <div class="rounded-xl overflow-hidden bg-slate-900/40 aspect-[16/10] flex items-center justify-center">
+          <div class="text-slate-400">Placeholder 2 (gif/video)</div>
+        </div>
+        <div class="rounded-xl overflow-hidden bg-slate-900/40 aspect-[16/10] flex items-center justify-center">
+          <div class="text-slate-400">Placeholder 3 (gif/video)</div>
+        </div>
+        <div class="rounded-xl overflow-hidden bg-slate-900/40 aspect-[16/10] flex items-center justify-center">
+          <div class="text-slate-400">Placeholder 4 (gif/video)</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DOMAIN LINKS -->
+    <section class="max-w-7xl mx-auto px-6 py-8">
+      <h3 class="text-2xl font-bold">One-page sites we’ve launched (.co.za)</h3>
+      <p class="text-slate-300 mt-2">Examples — each link goes to a single-page website we built.</p>
+
+      <ul class="mt-4 grid sm:grid-cols-2 lg:grid-cols-3 gap-3 text-electricBlue">
+        <li><a href="https://example1.co.za" class="hover:underline">example1.co.za</a></li>
+        <li><a href="https://example2.co.za" class="hover:underline">example2.co.za</a></li>
+        <li><a href="https://example3.co.za" class="hover:underline">example3.co.za</a></li>
+        <li><a href="https://example4.co.za" class="hover:underline">example4.co.za</a></li>
+        <li><a href="https://example5.co.za" class="hover:underline">example5.co.za</a></li>
+        <li><a href="https://example6.co.za" class="hover:underline">example6.co.za</a></li>
+        <li><a href="https://example7.co.za" class="hover:underline">example7.co.za</a></li>
+        <li><a href="https://example8.co.za" class="hover:underline">example8.co.za</a></li>
+        <li><a href="https://example9.co.za" class="hover:underline">example9.co.za</a></li>
+        <li><a href="https://example10.co.za" class="hover:underline">example10.co.za</a></li>
+      </ul>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="max-w-7xl mx-auto px-6 py-8 bg-slate-900/30 rounded-t-xl">
+      <div class="flex items-center justify-between">
+        <div>
+          <h3 class="text-2xl font-bold">Here’s what our customers say</h3>
+          <p class="text-slate-300 mt-2">Proudly serving South African businesses.</p>
+        </div>
+      </div>
+
+      <div class="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <div class="bg-slate-800/50 p-4 rounded-xl flex items-start gap-4">
+          <img src="assets/avatar1.svg" alt="Client 1" class="w-12 h-12 rounded-full object-cover" />
+          <div>
+            <div class="font-semibold">Thabo M.</div>
+            <div class="text-sm text-slate-300">"Fantastic service - our site went live in 3 days."</div>
+            <div class="mt-2 text-yellow-400">★★★★★</div>
+          </div>
+        </div>
+
+        <div class="bg-slate-800/50 p-4 rounded-xl flex items-start gap-4">
+          <img src="assets/avatar2.svg" alt="Client 2" class="w-12 h-12 rounded-full object-cover" />
+          <div>
+            <div class="font-semibold">Lindiwe Z.</div>
+            <div class="text-sm text-slate-300">"Great value for money, very responsive."</div>
+            <div class="mt-2 text-yellow-400">★★★★★</div>
+          </div>
+        </div>
+
+        <div class="bg-slate-800/50 p-4 rounded-xl flex items-start gap-4">
+          <img src="assets/avatar3.svg" alt="Client 3" class="w-12 h-12 rounded-full object-cover" />
+          <div>
+            <div class="font-semibold">Sipho K.</div>
+            <div class="text-sm text-slate-300">"Our mobile traffic doubled after the redesign."</div>
+            <div class="mt-2 text-yellow-400">★★★★★</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ (white background) -->
+    <section id="faq" class="bg-white text-deepNavy mt-10">
+      <div class="max-w-5xl mx-auto px-6 py-16">
+        <h2 class="text-3xl font-bold">Frequently Asked Questions</h2>
+        <p class="text-slate-600 mt-2">Everything you need to know before getting started.</p>
+
+        <div class="mt-8 grid gap-4">
+          <!-- FAQ items -->
+          <div class="faq-card rounded-xl shadow-md overflow-hidden" data-open="false">
+            <button class="faq-q w-full flex items-center justify-between px-6 py-5 bg-white text-left">
+              <div>
+                <div class="font-semibold">How much does a website cost?</div>
+                <div class="text-slate-500 text-sm mt-1">R1200 once-off plus your domain registration. No hidden fees.</div>
+              </div>
+              <svg class="faq-chevron w-6 h-6 text-slate-400 transition-transform" viewBox="0 0 24 24" fill="none"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+          </div>
+
+          <div class="faq-card rounded-xl shadow-md overflow-hidden" data-open="false">
+            <button class="faq-q w-full flex items-center justify-between px-6 py-5 bg-white text-left">
+              <div>
+                <div class="font-semibold">What's included?</div>
+                <div class="text-slate-500 text-sm mt-1">A professionally designed 1-page website with 5 sections, fully mobile-friendly, speed optimized, contact form, WhatsApp integration, and basic SEO setup.</div>
+              </div>
+              <svg class="faq-chevron w-6 h-6 text-slate-400 transition-transform" viewBox="0 0 24 24" fill="none"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+          </div>
+
+          <div class="faq-card rounded-xl shadow-md overflow-hidden" data-open="false">
+            <button class="faq-q w-full flex items-center justify-between px-6 py-5 bg-white text-left">
+              <div>
+                <div class="font-semibold">How long does it take?</div>
+                <div class="text-slate-500 text-sm mt-1">Most websites are completed within 2–5 business days after receiving your content.</div>
+              </div>
+              <svg class="faq-chevron w-6 h-6 text-slate-400 transition-transform" viewBox="0 0 24 24" fill="none"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+          </div>
+
+          <div class="faq-card rounded-xl shadow-md overflow-hidden" data-open="false">
+            <button class="faq-q w-full flex items-center justify-between px-6 py-5 bg-white text-left">
+              <div>
+                <div class="font-semibold">Can I update my website later?</div>
+                <div class="text-slate-500 text-sm mt-1">Yes. Additional changes, extra pages, and future upgrades can be done whenever your business grows.</div>
+              </div>
+              <svg class="faq-chevron w-6 h-6 text-slate-400 transition-transform" viewBox="0 0 24 24" fill="none"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+          </div>
+
+          <div class="faq-card rounded-xl shadow-md overflow-hidden" data-open="false">
+            <button class="faq-q w-full flex items-center justify-between px-6 py-5 bg-white text-left">
+              <div>
+                <div class="font-semibold">Will my website work on phones?</div>
+                <div class="text-slate-500 text-sm mt-1">Absolutely. Every website is designed to look perfect on mobile phones, tablets, and desktops.</div>
+              </div>
+              <svg class="faq-chevron w-6 h-6 text-slate-400 transition-transform" viewBox="0 0 24 24" fill="none"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+          </div>
+
+          <div class="faq-card rounded-xl shadow-md overflow-hidden" data-open="false">
+            <button class="faq-q w-full flex items-center justify-between px-6 py-5 bg-white text-left">
+              <div>
+                <div class="font-semibold">Do I need to buy hosting?</div>
+                <div class="text-slate-500 text-sm mt-1">I'll help you choose reliable hosting and register your domain if needed.</div>
+              </div>
+              <svg class="faq-chevron w-6 h-6 text-slate-400 transition-transform" viewBox="0 0 24 24" fill="none"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+          </div>
+
+          <div class="faq-card rounded-xl shadow-md overflow-hidden" data-open="false">
+            <button class="faq-q w-full flex items-center justify-between px-6 py-5 bg-white text-left">
+              <div>
+                <div class="font-semibold">How do I get started?</div>
+                <div class="text-slate-500 text-sm mt-1">Simply click Get Started or message us on WhatsApp with your business details, and we'll handle the rest.</div>
+              </div>
+              <svg class="faq-chevron w-6 h-6 text-slate-400 transition-transform" viewBox="0 0 24 24" fill="none"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- SVG wave divider -->
+      <div class="relative -mt-6">
+        <div class="wave-wrap">
+          <svg class="w-full h-28 block" viewBox="0 0 1440 200" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="g1" x1="0" x2="1" y1="0" y2="0">
+                <stop offset="0" stop-color="#0f172a" stop-opacity="1"/>
+                <stop offset="1" stop-color="#030712" stop-opacity="1"/>
+              </linearGradient>
+            </defs>
+            <g class="animate-wave">
+              <path d="M0 80 C 240 140 360 20 720 60 C 1080 100 1320 40 1440 80 L1440 200 L0 200 Z" fill="url(#g1)"></path>
+            </g>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER (dark navy) -->
+    <footer class="bg-indigoNavy text-slate-300">
+      <div class="max-w-7xl mx-auto px-6 py-12 grid md:grid-cols-3 gap-8">
+        <div>
+          <h4 class="font-bold">DALES Web Solutions</h4>
+          <p class="mt-2 text-slate-400">Modern websites that grow businesses. Based in Cape Town, serving South Africa.</p>
+        </div>
+
+        <div>
+          <h5 class="font-semibold">Quick links</h5>
+          <ul class="mt-2 space-y-1 text-slate-400">
+            <li><a href="#portfolio" class="hover:text-electricBlue">Our Work</a></li>
+            <li><a href="#faq" class="hover:text-electricBlue">FAQs</a></li>
+            <li><a href="#contact" class="hover:text-electricBlue">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h5 class="font-semibold">Contact</h5>
+          <p class="mt-2 text-slate-400">Want to start? <a href="#" class="text-electricBlue">Get in touch</a> or message us on WhatsApp.</p>
+          <div class="mt-4 flex gap-3">
+            <a href="#" class="px-3 py-2 bg-electricBlue text-deepNavy rounded-md">GET YOUR WEBSITE NOW</a>
+            <a href="https://wa.me/27774845787" target="_blank" class="px-3 py-2 border border-slate-700 rounded-md">WhatsApp</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="border-t border-slate-800/60 py-4 text-center text-slate-500 text-sm">
+        © <span id="year"></span> DALES Web Solutions — Proudly serving South Africa.
+      </div>
+    </footer>
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
