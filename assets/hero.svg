@@ -6,13 +6,15 @@
     </linearGradient>
   </defs>
   <rect width="100%" height="100%" fill="url(#g)" />
-  <g transform="translate(60,60)">
-    <rect x="0" y="0" width="480" height="320" rx="24" fill="#0b2945" opacity="0.9" />
-  </g>
-  <g transform="translate(620,80)">
-    <rect x="0" y="0" width="480" height="640" rx="20" fill="#071737" opacity="0.9" />
+  <g transform="translate(40,40)">
+    <rect x="340" y="40" width="480" height="320" rx="24" fill="#0b2945" opacity="0.95" />
+    <rect x="420" y="80" width="320" height="220" rx="16" fill="#061730" opacity="0.95" />
   </g>
   <g>
     <path d="M0 520 C 200 440 400 600 600 520 C 800 440 1000 600 1200 520 L1200 700 L0 700 Z" fill="#063b73" opacity="0.6"/>
+  </g>
+  <!-- subtle device mockup highlights -->
+  <g opacity="0.06">
+    <rect x="520" y="80" width="360" height="200" rx="6" fill="#ffffff" />
   </g>
 </svg>
